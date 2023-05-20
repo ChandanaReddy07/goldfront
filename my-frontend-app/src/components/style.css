@@ -1,0 +1,50 @@
+/* CSS for UserTable component */
+.UserTable {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .UserTable h2 {
+    margin-bottom: 20px;
+  }
+  
+  .UserTable table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .UserTable th,
+  .UserTable td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .UserTable th {
+    background-color: #f2f2f2;
+  }
+  
+  .UserTable input {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .UserTable button {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .UserTable button:hover {
+    background-color: #45a049;
+  }
+  
+  .UserTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
