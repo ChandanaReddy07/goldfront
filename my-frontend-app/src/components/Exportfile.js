@@ -10,8 +10,8 @@ const ExportButton = ({ users }) => {
       email: user.email,
       gender: user.gender,
       status: user.status,
-      created_at: user.Created_at,
-      updated_at: user.Updated_at,
+      created_at: user.createdAt,
+      updated_at: user.updatedAt,
     }));
 
     // Create a CSV string
