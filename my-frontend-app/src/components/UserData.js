@@ -12,6 +12,7 @@ const UserTable = () => {
     fetchUsers();
   }, []);
 
+  //fetching use data from backend
   const fetchUsers = async () => {
     try {
       const response = await axios.get('https://goldbakckend.onrender.com/user/users');
